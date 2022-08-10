@@ -1,0 +1,249 @@
+<!--Style-->
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient( 135deg, rgb(0, 119, 255), rgb(0, 52, 112));
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:8px;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* MENU */
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+.menu ul, li, a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3% 22% 3% 22%;
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-size: 17px;
+}
+.menu__items{
+    width: 110px;
+    transition: 0.3s;
+    background: white;
+    color: black;
+    padding: 7%;
+    border-radius: 20px;
+}
+
+.containerimgg{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.menu__items:hover{
+    transition: 0.3s;
+    background: rgb(13, 85, 126);
+    color: rgb(255, 255, 255);
+}
+
+/* conteudo */
+
+.containerimgg img{
+
+    display: flex;
+    width: 250px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2%;
+    border: black solid 6px;
+    border-radius: 100%;
+}
+
+
+/* Apresentação */
+
+.apresentacao h1{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 8px 0px 15px rgb(0, 0, 0);
+}
+
+.apresentacao h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18.5px;    
+}
+
+.apresent{
+    margin-top: 90px;
+    background: rgb(0, 82, 206);
+    padding: 1%; 
+}
+
+.apresent h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding-bottom: 40px; 
+}
+
+.apresent h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    padding: 0.5% 10% 2% 10%;
+    text-align: justify;
+}
+.apresentacao h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18.5px;
+}
+
+/* INFORMAÇÕES */
+
+.info{
+    background:rgb(0, 96, 240);
+    padding-top: 40px;
+    padding-bottom: 3%;
+}
+
+.info h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-shadow: 8px 0px 15px rgb(0, 0, 0);
+}
+.info__cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 1%;
+    margin-top: 0px;
+    padding-bottom: 2%;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: rgb(0, 56, 141) solid 3px;
+    border-radius: 10px;
+    background-image: radial-gradient(rgb(0, 85, 197), rgb(2, 103, 235), rgb(0, 85, 197) );
+}
+.informacoes h3{
+    padding: 1%;
+    font-size: 18.5px;
+}
+
+/* FORMAÇÃO */
+
+.formacao{
+    padding-top: 40px;
+    background: rgb(2, 103, 255);
+}
+.formacao h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    font-size: 35px;
+    text-shadow: 8px 0px 15px rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+.formacao__cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0% 0.5% 0%;
+    font-size: 17px;
+}
+.formacao__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 2% 0% 2%;
+}
+.formacao__img img{
+    width: 400px;
+    padding: 1%;
+    border-radius: 20px;
+}
+.img__legenda{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+    margin-left: 280px;
+    padding: 1% 1% 2% 1%;
+    font-size: 14px;
+}
+
+/* CURSOS */
+
+.cursos{
+    padding-top: 40px;
+    background: rgb(18, 112, 253);
+}
+.cursos__cont{
+    padding: 0% 1% 0% 10%;
+}
+.cursos h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    font-size: 35px;
+    text-shadow: 8px 0px 15px rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+.cursos__cont li, ul, h2{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:baseline;
+    font-size: 17px;
+    padding: 1%;
+}
+.despedida{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    padding: 1%;   
+}
+.despedida h6{
+    padding: 10px;
+}
+.despedida__cont h6{
+    justify-content: flex-end;
+}
